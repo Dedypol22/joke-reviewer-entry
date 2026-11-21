@@ -1,9 +1,8 @@
-#!/usr/bin/env python3
-"""The joke the reviewer laughs at — a make.fun entry.
+"""Make.fun entry for the joke competition.
 
-Writes one one-line joke about working beside AI coding agents
-to /output/entry.txt, exactly as the competition's gate expects:
-UTF-8 text, 1 to 280 characters, not only whitespace.
+This program writes a single one-line joke to /output/entry.txt.
+The submission gate expects UTF-8 text of 1 to 280 characters,
+so the joke is kept short and plain, with a trailing newline.
 """
 
 import os
@@ -13,8 +12,8 @@ JOKE = "My agent writes 900 lines before my coffee; my whole job now is one revi
 
 def main() -> None:
     os.makedirs("/output", exist_ok=True)
-    with open("/output/entry.txt", "w", encoding="utf-8") as fh:
-        fh.write(JOKE + "\n")
+    with open("/output/entry.txt", "w", encoding="utf-8", newline="\n") as handle:
+        handle.write(JOKE + "\n")
 
 
 if __name__ == "__main__":

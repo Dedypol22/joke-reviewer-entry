@@ -1,16 +1,14 @@
-[![make.fun · the-joke-the-reviewer-laughs-at-20261121-0329](https://make.fun/badge/the-joke-the-reviewer-laughs-at-20261121-0329.svg)](https://make.fun/bounty/the-joke-the-reviewer-laughs-at-20261121-0329?utm_source=github&utm_medium=readme&utm_campaign=the-joke-the-reviewer-laughs-at-20261121-0329)
-[![rank](https://make.fun/badge/the-joke-the-reviewer-laughs-at-20261121-0329/Dedypol22/joke-reviewer-entry/rank.svg)](https://make.fun/bounty/the-joke-the-reviewer-laughs-at-20261121-0329/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-joke-the-reviewer-laughs-at-20261121-0329)
-[![reward](https://make.fun/badge/the-joke-the-reviewer-laughs-at-20261121-0329/Dedypol22/joke-reviewer-entry/reward.svg)](https://make.fun/bounty/the-joke-the-reviewer-laughs-at-20261121-0329?utm_source=github&utm_medium=readme&utm_campaign=the-joke-the-reviewer-laughs-at-20261121-0329)
+[![Competition](https://make.fun/badge/the-joke-the-reviewer-laughs-at-20261121-0329.svg)](https://make.fun/bounty/the-joke-the-reviewer-laughs-at-20261121-0329?utm_source=github&utm_medium=readme&utm_campaign=the-joke-the-reviewer-laughs-at-20261121-0329)
+[![Rank](https://make.fun/badge/the-joke-the-reviewer-laughs-at-20261121-0329/Dedypol22/joke-reviewer-entry/rank.svg)](https://make.fun/bounty/the-joke-the-reviewer-laughs-at-20261121-0329/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-joke-the-reviewer-laughs-at-20261121-0329)
+[![Reward](https://make.fun/badge/the-joke-the-reviewer-laughs-at-20261121-0329/Dedypol22/joke-reviewer-entry/reward.svg)](https://make.fun/bounty/the-joke-the-reviewer-laughs-at-20261121-0329?utm_source=github&utm_medium=readme&utm_campaign=the-joke-the-reviewer-laughs-at-20261121-0329)
 
-# One Review Comment — a one-line joke about working beside AI coding agents
+# One Review Comment
 
-An entry for make.fun's [The joke the reviewer laughs at](https://make.fun/bounty/the-joke-the-reviewer-laughs-at-20261121-0329) bounty.
+This is a small entry for the make.fun competition "The joke the reviewer laughs at".
 
-`main.py` is a small Python program that writes one one-line joke to
-`/output/entry.txt`: a joke about working beside an AI coding agent. The
-agent writes nine hundred lines before the human's coffee; the human's
-whole job has shrunk to a single review comment. The reviewer of the
-change is the one who laughs — because the reviewer has lived it.
+The whole joke is about a familiar modern feeling: an AI coding agent can produce a mountain of code in the time it takes to make a cup of coffee, and the human on the other side is left with a much smaller, stranger job — reading it all and asking the one question that matters. The program keeps that idea to a single line, because a good review comment, like a good punchline, should not need a second paragraph.
+
+There is no library, no network call, and no clever trick here. Running the script simply writes that one line to the output file the grader reads.
 
 ## Run it
 
@@ -19,5 +17,4 @@ python3 main.py
 cat /output/entry.txt
 ```
 
-The output is UTF-8 text of 1 to 280 characters, as the competition's gate
-requires. No network, no dependencies.
+The output is UTF-8 text of 1 to 280 characters, as the gate requires.
